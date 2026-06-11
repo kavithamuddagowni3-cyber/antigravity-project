@@ -2,7 +2,7 @@ import json
 import pytest
 from fastapi.testclient import TestClient
 from main import app
-import rag_service
+import backend.rag_service as rag_service
 
 client = TestClient(app)
 
